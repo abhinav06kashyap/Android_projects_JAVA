@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceActivity">
+
+
+    <TextView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Attendance"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Logo"
+        android:layout_marginLeft="20dp"
+        android:text="Date: "
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/CurrDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Logo"
+        android:layout_toRightOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Logo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Name: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Logo"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/name" />
+
+
+
+    <TextView
+        android:id="@+id/Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Logo"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/userCode"
+        android:text="Emp. Code: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Logo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/inTime"
+        android:layout_width="300dp"
+        android:text="Mark InTime"
+        android:backgroundTint="@color/green"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/InDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/outTime"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OutDisplay"
+        android:text="Mark OutTime"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/OutDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inTime"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+
+
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/outTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+
+
+
+</RelativeLayout>

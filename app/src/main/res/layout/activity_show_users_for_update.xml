@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowUsersForUpdateActivity">
+
+
+    <TextView
+        android:id="@+id/SelectLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select User"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="50dp"/>
+
+    <LinearLayout
+        android:id="@+id/selectUserLinear"
+        android:layout_below="@+id/SelectLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/selectUserRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/selectUserLinear"
+        android:layout_marginTop="-80dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
