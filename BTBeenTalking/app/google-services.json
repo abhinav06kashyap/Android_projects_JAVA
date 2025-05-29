@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "958675329663",
+    "firebase_url": "https://been-talking-default-rtdb.firebaseio.com",
+    "project_id": "been-talking",
+    "storage_bucket": "been-talking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958675329663:android:c119b4cd4e48522c59554a",
+        "android_client_info": {
+          "package_name": "com.example.btbeentalking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958675329663-fot9hgf5ckhq6kp15cnqbepgshvb43ng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.btbeentalking",
+            "certificate_hash": "adec80d2dcabd2c95b97b71fa9ea1c2607b48dfd"
+          }
+        },
+        {
+          "client_id": "958675329663-1g27kamm6gdsq535t31np3mep86bq30m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ-tJsql7AcHhF38X9Q1E72ZqbM7RkeCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958675329663-1g27kamm6gdsq535t31np3mep86bq30m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
